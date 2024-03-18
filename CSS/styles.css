@@ -1,0 +1,70 @@
+/* Resetting default margin and padding */
+* {
+    margin: 1;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+.header__name {
+    color: green;
+    margin: 10;
+}
+
+/* Introduction Section Styles */
+.introduction {
+    background-color: burlywood;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Skills Display Styles */
+.skills {
+    margin-top: 10px;
+}
+
+.skills__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills__list li {
+    border: 1px solid violet;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Information Styles */
+.contact {
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
